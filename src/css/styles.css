@@ -1,7 +1,7 @@
 .App {
   margin: 0;
   background-color: #3247a4;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .area51 {
@@ -10,7 +10,7 @@
 
 .header {
   margin-top: -3px;
-  background-color: #ffff01;
+  background-color: #ffff99;
 }
 
 .header .nav {
@@ -48,8 +48,13 @@
 }
 
 .home h2 {
-  color: #ffff01;
+  color: #ffff99;
   margin: 10px 0;
+}
+
+.home p {
+  color: #ffff99;
+  padding: 10px;
 }
 
 .home img {
@@ -58,13 +63,19 @@
 }
 
 .about h2 {
-  color: #ffff01;
+  color: #ffff99;
   text-align: center;
   margin: 10px 0;
 }
 
+.about p {
+  color: #ffff99;
+  padding: 10px;
+}
+
 .footer {
-  background-color: #ffff01;
+  background-color: #ffff99;
+  margin-bottom: -5px;
 }
 
 .footer a {
@@ -72,7 +83,8 @@
 }
 
 .footer h3 {
-  margin: 5px 0;
+  margin: 0;
+  padding: 5px;
   color: #3247a4;
 }
 /*# sourceMappingURL=styles.css.map */

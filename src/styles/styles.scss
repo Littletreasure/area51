@@ -1,10 +1,10 @@
-$secondary-color: #ffff01;
+$secondary-color: #ffff99;
 $main-color: #3247a4;
 
 .App {
   margin: 0;
   background-color: $main-color;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .area51 {
@@ -38,6 +38,11 @@ $main-color: #3247a4;
     margin: 10px 0;
   }
 
+  p {
+    color: $secondary-color;
+    padding: 10px;
+  }
+
   img {
     width: 50%;
     margin-top: 10px;
@@ -49,14 +54,20 @@ $main-color: #3247a4;
     text-align: center;
     margin: 10px 0;
   }
+  p {
+    color: $secondary-color;
+    padding: 10px;
+  }
 }
 .footer {
   background-color: $secondary-color;
+  margin-bottom: -5px;
   a {
-      text-decoration: none;
-    }
-    h3 {
-      margin: 5px 0;
-      color: $main-color;
-    }
+    text-decoration: none;
+  }
+  h3 {
+    margin: 0;
+    padding: 5px;
+    color: $main-color;
+  }
 }
