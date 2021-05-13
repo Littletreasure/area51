@@ -1,0 +1,62 @@
+$secondary-color: #ffff01;
+$main-color: #3247a4;
+
+.App {
+  margin: 0;
+  background-color: $main-color;
+  height: 100vh;
+}
+
+.area51 {
+  width: 100%;
+}
+.header {
+  margin-top: -3px;
+  background-color: $secondary-color;
+
+  .nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    a {
+      text-decoration: none;
+    }
+    h3 {
+      margin: 5px 0;
+      color: $main-color;
+    }
+  }
+}
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h2 {
+    color: $secondary-color;
+    margin: 10px 0;
+  }
+
+  img {
+    width: 50%;
+    margin-top: 10px;
+  }
+}
+.about {
+  h2 {
+    color: $secondary-color;
+    text-align: center;
+    margin: 10px 0;
+  }
+}
+.footer {
+  background-color: $secondary-color;
+  a {
+      text-decoration: none;
+    }
+    h3 {
+      margin: 5px 0;
+      color: $main-color;
+    }
+}

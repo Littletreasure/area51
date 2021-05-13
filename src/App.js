@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import './css/styles.css';
+import { Router } from "@reach/router";
+import area51 from './images/area51small.jpeg'
+import Header from './components/Header'
+import About from './components/About'
+import Home from "./components/Home";
+import Footer from "./components/Footer"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <img className="area51" src={area51} alt="area51" />
+      <Header />
+      <Router>
+        <Home path="/" />
+        <About path="/about" />
+      </Router>
+      <Footer />
     </div>
   );
 }
