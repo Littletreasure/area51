@@ -7,18 +7,20 @@ import Home from "./components/Home";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import Books from "./components/Books";
+import Departments from "./components/Departments";
 
 
 function App() {
   return (
     <div className="App">
-      <img className="area51" src={area51} alt="area51" />
+      {/* <img className="area51" src={area51} alt="area51" /> */}
       <Header />
       <Router>
         <Home path="/" />
         <About path="/about" />
         <Contact path="/contact" />
-        <Books path="/books" />
+        <Books path="/departments/books" />
+        <Departments path='/departments' />
       </Router>
       <Footer />
     </div>

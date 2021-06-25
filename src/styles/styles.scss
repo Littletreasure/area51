@@ -6,6 +6,9 @@ $main-color: #3247a4;
   background-color: $main-color;
   min-height: 100vh;
   z-index: 0;
+  a {
+    text-decoration: none;
+  }
   h2 {
     margin: 10px 0;
     color: $secondary-color;
@@ -16,13 +19,30 @@ $main-color: #3247a4;
     padding: 10px;
     margin: 5px 0;
   }
+  ul {
+    margin: 0;
+    li {
+      color: $secondary-color;
+      list-style-type: none;
+      padding-top: 10px;
+    }
+    li li {
+      line-height: 20px;
+      padding: 0;
+    }
+  }
 }
 
 .area51 {
   width: 100%;
 }
 .header {
+  position: fixed;
   margin-top: -3px;
+  left: 0;
+  top: 0;
+  right: 0;
+
   h3 {
     margin: 5px 0;
     color: $main-color;
@@ -32,19 +52,21 @@ $main-color: #3247a4;
     background-color: $secondary-color;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    .navLinks {
-      width: 50%;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-around;
-    }
+    justify-content: space-around;
+    margin-top: -3px;
+
+    // .navLinks {
+    //   width: 50%;
+    //   display: flex;
+    //   flex-direction: row;
+    //   justify-content: space-around;
+    // }
     .menuLink {
       width: 155px;
     }
-    a {
-      text-decoration: none;
-    }
+    // a {
+    //   text-decoration: none;
+    // }
   }
   .menu {
     right: 0;
@@ -79,8 +101,23 @@ $main-color: #3247a4;
 //     padding: 10px;
 //   }
 // }
+.departments,
+.home,
+.about,
+.books {
+  padding-bottom: 45px;
+  padding-top: 175px;
+}
+.departments {
+  // a {
+  //   text-decoration: none;
+  // }
+  p {
+    margin: 0;
+  }
+}
 .footer {
-  position: absolute;
+  position: fixed;
   left: 0;
   bottom: 0;
   right: 0;
