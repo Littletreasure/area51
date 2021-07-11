@@ -23,6 +23,7 @@
 
 .App ul {
   margin: 0;
+  padding-bottom: 15px;
 }
 
 .App ul li {
@@ -96,6 +97,7 @@
 
 .home p {
   line-height: 1.5;
+  margin-top: 20px;
 }
 
 .home img {
@@ -106,12 +108,23 @@
 .departments,
 .home,
 .about,
-.books {
-  padding-bottom: 45px;
-  padding-top: 175px;
+.books,
+.sciFi,
+.vinyl,
+.jewellery {
+  padding: 175px 10px 25px 10px;
 }
 
 .departments p {
+  margin: 0;
+}
+
+.quoteBox {
+  margin: 0 10px 30px 10px;
+  border: 1px solid #ffff99;
+}
+
+.quoteBox p {
   margin: 0;
 }
 

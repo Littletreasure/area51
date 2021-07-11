@@ -12,38 +12,44 @@ class Departments extends Component {
           <Link to="/departments/books">
           <li>Christian books and cards</li>
           </Link>
+          <Link to="/departments/vinyl">
           <li>Vinyl</li>
+          </Link>
+          <Link to="/departments/jewellery">
           <li>Jewellery</li>
+          </Link>
+          <Link to="/departments/scifi">
           <li>
             Sci-fi:
-            <ul>
+            {/* <ul>
               <li>comics</li>
               <li>collectables</li>
               <li>Star Wars</li>
               <li>Eagle</li>
-            </ul>
+            </ul> */}
           </li>
+          </Link>
           <li>Football memorabilia:
-            <ul>
+            {/* <ul>
               <li>vintage kits</li>
               <li>programmes</li>
               <li>autobiographies</li>
               <li>collectables</li>
-            </ul>
+            </ul> */}
           </li>
           <li>Vintage school items:
-            <ul>
+            {/* <ul>
               <li>vintage school equipment</li>
               <li>vintage badges & uniform</li>
-            </ul>
+            </ul> */}
           </li>
           <li>Ceramics/porcelain/glassware:
-            <ul>
+            {/* <ul>
               <li>art deco</li>
               <li>Clarice Cliff, Shelley, Susie Cooper</li>
               <li>Coalport, Royal Doulton</li>
               <li>Swarovski</li>
-            </ul>
+            </ul> */}
           </li>
           <li>Caron's cute creations</li>
         </ul>

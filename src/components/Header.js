@@ -8,12 +8,12 @@ class Header extends Component {
     showMenu: false,
   };
 
-  toggleMenu = (event) => {
-    event.preventDefault();
-    this.setState((prevState) => ({
-      showMenu: !prevState.showMenu,
-    }));
-  };
+  // toggleMenu = (event) => {
+  //   event.preventDefault();
+  //   this.setState((prevState) => ({
+  //     showMenu: !prevState.showMenu,
+  //   }));
+  // };
 
   componentDidUpdate() {
     const { showMenu } = this.state;
